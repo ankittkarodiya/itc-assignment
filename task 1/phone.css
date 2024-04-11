@@ -1,0 +1,86 @@
+
+.menu{
+    display: inline;
+}
+
+.logo{
+    position: absolute;
+    top: 6px;
+    left: 40px;
+}
+.navbar ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    border: 2px solid blue;
+    border-radius: 6px;
+    opacity: .8;
+    /* margin: auto; */
+    margin-top: 10px;
+    margin-right: 80px;
+    /* margin-left: 220px; */
+    height: 250px;
+    width: 300px;
+    z-index: 2;
+}
+.navbar ul li{
+    margin: 3px 0px;
+}
+
+.navbar ul li:hover .submenu1 ul{
+    position: absolute;
+    border: none;
+    height: 60px;
+    width: 130px;
+    top: 80px;
+    left: 50px;
+}
+.navbar ul li:hover .submenu2 ul{
+    border: none;
+    position: absolute;
+    top: 110px;
+    left: 80px;
+    height: 90px;
+}
+.navbar ul li:hover .submenu3 ul{
+    border: none;
+    position: absolute;
+    top: 140px;
+    left: 126px;
+    height: 30px;
+    width: 100px;
+}
+
+
+/* .navbar ul{
+    display: none;
+}
+.logo{
+    display: inline-block;
+} */
+
+/* .menu .line:hover .navbar ul{
+    display: block;
+    
+} */
+
+.section1{
+    z-index: 1;
+}
+.h2{
+    font-size: 30px;
+}
+.box21{
+    margin-left: 20px;
+}
+.box22{
+    margin-right: 20px;
+}
+.box31{
+    margin-left: 20px;
+}
+.box32{
+    margin-right: 20px;
+}
